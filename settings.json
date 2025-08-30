@@ -134,5 +134,12 @@
   },
   "hooks": {
     "user-prompt-submit-hook": "~/.claude/security-validator.py"
+  },
+  "env": {
+    "CLAUDE_CODE_ENABLE_TELEMETRY": false,
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFIC": true,
+    "DISABLE_ERROR_REPORTING": true,
+    "DISABLE_TELEMETRY": true,
+    "DISABLE_MICROCOMPACT": true
   }
 }
