@@ -184,7 +184,7 @@
   "hooks": {
     "UserPromptSubmit": [
       {
-        "matcher": {},
+        "matcher": "*",
         "hooks": [
           {
             "type": "command",
