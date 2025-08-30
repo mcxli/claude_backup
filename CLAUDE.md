@@ -64,18 +64,6 @@ This repository contains a security validator script for Claude Code CLI that ac
 
 ## Key Commands
 
-### Installation
-```bash
-# Create symbolic link to the script (recommended for maintenance)
-ln -s ~/IdeaProjects/scripts/security-validator.py ~/.claude/security-validator.py
-
-# Alternative: Copy to Claude directory (if symlink not preferred)
-# cp security-validator.py ~/.claude/security-validator.py
-
-# Make executable (only needed if copied)
-# chmod +x ~/.claude/security-validator.py
-```
-
 ### Testing the Validator
 ```bash
 # Test with sample JSON input (simulating Claude Code hook)
@@ -115,7 +103,7 @@ When modifying the security validator:
 
 ### Using Symbolic Links (Recommended)
 The script is maintained in the Git repository and linked to Claude's directory:
-- **Repository location**: `~/IdeaProjects/scripts/security-validator.py`
+- **Repository location**: `<your-project-path>/security-validator.py`
 - **Claude location**: `~/.claude/security-validator.py` (symlink)
 
 Benefits:
@@ -127,7 +115,7 @@ Benefits:
 ### Updating the Validator
 ```bash
 # Edit the script in your repository
-vim ~/IdeaProjects/scripts/security-validator.py
+vim <your-project-path>/security-validator.py
 
 # Changes are automatically reflected via symlink
 # Test the updated validator
